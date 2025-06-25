@@ -18,7 +18,7 @@
 
 ---
 
-## 📦 Installation and running
+## 📦 Installation 
 
 Make sure [Rust](https://www.rust-lang.org/tools/install) is installed.
 
@@ -26,15 +26,21 @@ Then install with:
 
 ```bash
 cargo install --git https://github.com/Bearcry55/rtodo.git
-rtodo
+
 ```
 Or clone manually:
 ```bash
 git clone https://github.com/Bearcry55/rtodo.git
 cd rtodo
 cargo install --path .
-rtodo
+
 ```
+## Running the program 
+```bash
+rtodo 
+```
+
+
 ## 🧠 Usage
 
 
