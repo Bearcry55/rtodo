@@ -6,39 +6,35 @@
 
 ## ✨ Features
 
-- 🧾 **Task management** with title, description, target date, and completion status
-- ✅ **Mark tasks complete** with color-coded status (✓ Green for complete, 🔴 Red for overdue)
-- 📅 **Sort tasks** by creation date, target date, or completion status
-- 🖋 **Add/Edit/Delete** tasks using a dynamic form popup
-- 📊 **Live progress bar** showing task completion status
-- 💾 **Persistent local storage** using `todos.json`
-- 🎨 **Modern TUI** interface using `ratatui` and keyboard navigation
-- 🦀 Built in Rust for performance and safety
+- 🧾 Task management with title, description, target date, and completion status  
+- ✅ Mark tasks complete with color-coded status  
+- 🔴 Overdue tasks shown in red  
+- 📅 Sort tasks by created date, target date, or completion status  
+- 🖋 Add, edit, delete tasks with an interactive popup form  
+- 📊 Live progress bar showing task completion status  
+- 💾 Tasks are saved to `todos.json` locally  
+- 🎨 Powered by `ratatui` for a smooth terminal UI  
+- 🦀 Written in Rust for speed, safety, and fun!
 
 ---
 
-## 📦 Installation
+## 📦 Installation and running
 
-You must have Rust installed:  
-➡️ [Install Rust](https://www.rust-lang.org/tools/install)
+Make sure [Rust](https://www.rust-lang.org/tools/install) is installed.
 
-Then, run:
+Then install with:
 
 ```bash
 cargo install --git https://github.com/Bearcry55/rtodo.git
-
-
-
-
+rtodo
+```
 Or clone manually:
-
+```bash
 git clone https://github.com/Bearcry55/rtodo.git
 cd rtodo
 cargo install --path .
-
-Make sure $HOME/.cargo/bin is in your $PATH to run rtodo globally.
-
-
+rtodo
+```
 🧠 Usage
 
 Run the app:
@@ -59,7 +55,9 @@ C	Sort by completion status
 Enter	Submit form (when adding/editing)
 Tab / Shift+Tab	Navigate between fields
 Esc / Q	Cancel form or exit app
-📁 Project Structure
+
+---
+##📁 Project Structure
 
 rtodo/
 ├── src/
@@ -71,7 +69,7 @@ rtodo/
 
     Coming soon...
 
-🧑‍💻 Author
+##🧑‍💻 Author
 
 Deep Narayan Banerjee
 GitHub: @Bearcry55
