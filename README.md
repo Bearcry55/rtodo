@@ -35,41 +35,39 @@ cd rtodo
 cargo install --path .
 rtodo
 ```
-🧠 Usage
+## 🧠 Usage
 
-Run the app:
 
-rtodo
 
-All data is saved to todos.json in the working directory.
-🎮 Keyboard Controls
-Key	Action
-↑ / ↓	Navigate tasks
-Space	Toggle complete/incomplete
-N	Add new task
-E	Edit selected task
-D	Delete selected task
-S	Sort by created date
-T	Sort by target date
-C	Sort by completion status
-Enter	Submit form (when adding/editing)
-Tab / Shift+Tab	Navigate between fields
-Esc / Q	Cancel form or exit app
+-All data is saved to todos.json in the working directory.
+-🎮 Keyboard Controls
+-key	Action
+-↑ / ↓	Navigate tasks
+-Space	Toggle complete/incomplete
+-N	Add new task
+-E	Edit selected task
+-D	Delete selected task
+-S	Sort by created date
+-T	Sort by target date
+-C	Sort by completion status
+-Enter	Submit form (when adding/editing)
+-Tab / Shift+Tab	Navigate between fields
+-Esc / Q	Cancel form or exit app
 
 ---
-##📁 Project Structure
+## 📁 Project Structure
 
-rtodo/
-├── src/
-│   └── main.rs        # Main app logic
-├── Cargo.toml         # Dependencies and metadata
-└── todos.json         # Saved tasks (auto-created)
+-rtodo/
+-├── src/
+-│   └── main.rs        # Main app logic
+-├── Cargo.toml         # Dependencies and metadata
+-└── todos.json         # Saved tasks (auto-created)
 
 📷 Screenshots
 
     Coming soon...
 
-##🧑‍💻 Author
+## 🧑‍💻 Author
 
 Deep Narayan Banerjee
 GitHub: @Bearcry55
